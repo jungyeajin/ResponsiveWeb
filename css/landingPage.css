@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+}
+div {
+  box-sizing: border-box;
+}
+p {
+  margin: 0px;
+  padding-bottom: 20px;
+}
+button {
+  background: #4a4a4a;
+  color: white;
+  padding: 12px 23px;
+  border-radius: 5px;
+  border: none;
+  font: inherit;
+}
+button:hover {
+  background-color: #cdd6f2;
+  color: black;
+  cursor: pointer;
+}
+i {
+  font-size: 50px;
+  color: #5c6bd2;
+}
+
+.info-apps {
+  background: linear-gradient(to top, rgba(27, 27, 176, 0.845), rgb(119, 163, 201));
+  color: white;
+  padding: 70px 80px 0px 80px;
+  overflow: auto;
+}
+.info-cont {
+  max-width: 1200px;
+    margin: auto;
+}
+.info-cont div {
+  float: left;
+  width: 50%;
+}
+.phone {
+  width: 300px;
+  float: right;
+  position: relative;
+  right: 50px;
+  margin-top: 44px;
+}
+
+.info-pro {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.big-font {
+  font-size: 20px;
+}
+
+.info-service {
+  background-color: #5c6bd2;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  overflow: auto;
+}
+.info-icons {
+  max-width: 1200px;
+  margin: auto;
+}
+.icon-item {
+  float: left;
+  width: 25%;
+}
+.icon-back {
+  background-color: white;
+  padding: 40px;
+  border-radius: 65px;
+  width: 125px;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 992px) {
+  .info-apps div {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .phone {
+    float: initial;
+    bottom: -4px;
+    right: 0px;
+  }
+  .icon-item {
+    width: 50%;
+  }
+}
