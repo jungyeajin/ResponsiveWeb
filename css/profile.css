@@ -1,6 +1,4 @@
 body {
-  /* width: 100%;
-  height: 100%; */
   background-color: #f7f9fc;
 }
 button {
@@ -8,9 +6,13 @@ button {
   background-color: #6fbaf8 !important;
 }
 
-.container {
+.profile {
   background-color: white !important;
 }
-.map-div {
+.active {
+  border-bottom: 3px solid #6fbaf8;
+  margin-bottom: -3px;
+}
+.col-sky {
   color: #6fbaf8;
 }
