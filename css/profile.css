@@ -1,0 +1,16 @@
+body {
+  /* width: 100%;
+  height: 100%; */
+  background-color: #f7f9fc;
+}
+button {
+  color: white !important;
+  background-color: #6fbaf8 !important;
+}
+
+.container {
+  background-color: white !important;
+}
+.map-div {
+  color: #6fbaf8;
+}
