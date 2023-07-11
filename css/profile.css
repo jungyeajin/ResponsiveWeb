@@ -16,3 +16,13 @@ button {
 .col-sky {
   color: #6fbaf8;
 }
+.pro-table {
+  border-left: 1px solid lightgray;
+}
+
+@media screen and (max-width: 767.98px){
+  .pro-table {
+    border: none;
+    margin-top: 35px;
+  }
+}
